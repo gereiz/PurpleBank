@@ -1,0 +1,22 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "transfers",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "client",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "datasearch",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tipe",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ]
+}
